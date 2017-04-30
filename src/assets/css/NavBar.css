@@ -1,0 +1,82 @@
+.header{
+	width: 100%;
+	height: 50px;
+	background: #038fe2;
+	line-height: 50px;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.toplist{
+	width: 100%;
+	display: flex;
+}
+.toplist li{
+	list-style: none;
+}
+.my{
+	margin-left: 10px;
+}
+.logo{
+	flex: 1;
+}
+.search{
+	margin-right: 10px;
+}
+#box{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.3);
+	z-index: 5;
+	top: 0;
+	position: absolute;
+	display: none;
+}
+.left-box{
+	width: 52%;
+	height: 100%;
+	background: #fff;
+	position: absolute;
+	z-index: 9;
+	top: 0;
+	left: -52%;
+}
+#user{
+	width: 100%;
+	height: 140px;
+	border-bottom: 1px solid #f0f0f0;
+    background: #f2f2f2;
+    overflow: hidden;
+}
+#user .Head-portrait{
+	width: 100%;
+	height: 50px;
+	margin-top: 30px;
+	color: #666;
+}
+#user .user-list{
+	list-style: none;
+	margin: 0 auto;
+	width: 50%;
+	height: 50px;
+	text-align: center;
+}
+#user .user-list li{
+	float: left;
+	color: #999;
+	line-height: 20px;
+	margin-left: 10px;
+	font-size: 15px;
+}
+.list{
+	color: #333;
+}
+.list li{
+	height: 50px;
+	line-height: 50px;
+	margin-left: 10px;
+	text-align: left;
+	font-size: 15px;
+	border-bottom: 1px solid #f0f0f0;
+}
