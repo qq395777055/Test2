@@ -73,10 +73,22 @@
 	color: #333;
 }
 .list li{
-	height: 50px;
-	line-height: 50px;
+	line-height: 40px;
 	margin-left: 10px;
 	text-align: left;
 	font-size: 15px;
 	border-bottom: 1px solid #f0f0f0;
+}
+.list li span{
+	position: absolute;
+	right: 10px;
+}
+#mofaList{
+	display: none;
+}
+#mofaList li{
+	line-height: 40px;
+	list-style: none;
+	border: none;
+	border-top: 1px solid #f0f0f0;
 }
